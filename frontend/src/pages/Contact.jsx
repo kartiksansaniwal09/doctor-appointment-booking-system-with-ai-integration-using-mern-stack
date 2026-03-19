@@ -16,10 +16,10 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className=' font-semibold text-lg text-gray-600'>APPOINTEX / NCJIMS CONTACT</p>
           <p className=' text-gray-500'>{ncjimsInstituteProfile.address.line1} <br /> {ncjimsInstituteProfile.address.line2}</p>
-          <p className=' text-gray-500'>Tel: {ncjimsInstituteProfile.phone} <br /> Reserve: {ncjimsInstituteProfile.reserveNumbers.join(', ')} <br /> Email: support@appointex.ai</p>
+          <p className=' text-gray-500'>Tel: {ncjimsInstituteProfile.phone} <br /> Reserve: {ncjimsInstituteProfile.reserveNumbers.join(', ')} <br /> Demo WhatsApp: {ncjimsInstituteProfile.whatsappNumber} <br /> Email: support@appointex.ai</p>
           <p className=' font-semibold text-lg text-gray-600'>FOR HOSPITAL DEPLOYMENT</p>
           <p className=' text-gray-500'>Contact us to connect Appointex with your MERN backend, doctor roster, and appointment workflows.</p>
-          <a href={ncjimsInstituteProfile.whatsappBooking} target='_blank' rel='noreferrer' className='rounded-full border border-slate-300 px-8 py-4 text-sm transition-all duration-500 hover:bg-slate-900 hover:text-white'>Book on WhatsApp</a>
+          <span className='rounded-full border border-slate-300 px-8 py-4 text-sm transition-all duration-500'>Demo WhatsApp: {ncjimsInstituteProfile.whatsappNumber}</span>
         </div>
       </div>
 

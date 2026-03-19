@@ -43,9 +43,9 @@ const Header = () => {
                     <a href='#speciality' className='inline-flex items-center gap-2 rounded-full bg-slate-900 px-7 py-3 text-sm text-white transition-all duration-300 hover:scale-105'>
                         Explore departments <img className='w-3' src={assets.arrow_icon} alt="" />
                     </a>
-                    <a href={ncjimsInstituteProfile.whatsappBooking} target='_blank' rel='noreferrer' className='inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3 text-sm text-slate-700'>
-                        Book on WhatsApp
-                    </a>
+                    <span className='inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3 text-sm text-slate-700'>
+                        Demo WhatsApp: {ncjimsInstituteProfile.whatsappNumber}
+                    </span>
                 </div>
             </div>
 

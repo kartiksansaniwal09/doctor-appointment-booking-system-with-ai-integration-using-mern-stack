@@ -21,7 +21,7 @@ const Banner = () => {
                 </p>
                 <div className='mt-6 flex flex-wrap gap-3'>
                     <button onClick={() => { navigate('/doctors'); scrollTo(0, 0) }} className='rounded-full bg-white px-8 py-3 text-sm sm:text-base text-[#595959] transition-all hover:scale-105'>View doctors</button>
-                    <a href={ncjimsInstituteProfile.whatsappBooking} target='_blank' rel='noreferrer' className='rounded-full border border-white/30 px-8 py-3 text-sm text-white'>Book on WhatsApp</a>
+                    <span className='rounded-full border border-white/30 px-8 py-3 text-sm text-white'>Demo WhatsApp: {ncjimsInstituteProfile.whatsappNumber}</span>
                 </div>
             </div>
 

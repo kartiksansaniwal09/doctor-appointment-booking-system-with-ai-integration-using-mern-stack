@@ -8,10 +8,11 @@ export const ncjimsInstituteProfile = {
   shortName: 'NCJIMS / O.P. Jindal',
   appName: 'Appointex',
   address: instituteAddress,
-  phone: '01662-310201',
-  reserveNumbers: ['9896539128', '9896471111'],
+  phone: '01111-222333',
+  reserveNumbers: ['9000000001', '9000000002'],
   emergency: '24 Hrs Emergency Available',
-  whatsappBooking: 'https://wa.me/919896471111?text=Hii',
+  whatsappBooking: '#demo-whatsapp',
+  whatsappNumber: '+91 11111 11111',
   departmentsPage: 'https://www.ncjims.org/departments.html',
   locationPage: 'https://www.ncjims.org/location_map.html'
 }

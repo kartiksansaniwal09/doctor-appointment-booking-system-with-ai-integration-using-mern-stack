@@ -41,7 +41,7 @@ const Footer = () => {
             <li>{ncjimsInstituteProfile.phone}</li>
             <li>{ncjimsInstituteProfile.reserveNumbers.join(', ')}</li>
             <li>support@appointex.ai</li>
-            <li><a href={ncjimsInstituteProfile.whatsappBooking} target='_blank' rel='noreferrer'>WhatsApp booking</a></li>
+            <li>Demo WhatsApp: {ncjimsInstituteProfile.whatsappNumber}</li>
           </ul>
         </div>
 
